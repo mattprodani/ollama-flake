@@ -46,7 +46,8 @@ let
   src = fetchFromGitHub {
     owner = "ollama";
     repo = "ollama";
-    rev = "7a01ad76143973199bd6965c13476d2d04f10f75";
+    rev = "v${version}";
+    url = "ssh://git@github.com/ollama/ollama.git";
     hash= "sha256-GRufz01lTSgBmDzRImY02xuAeuzjlIEFWv578fI8ciY=";
     fetchSubmodules = true;
   };
