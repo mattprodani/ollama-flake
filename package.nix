@@ -47,7 +47,6 @@ let
     owner = "ollama";
     repo = "ollama";
     rev = "v${version}";
-    url = "ssh://git@github.com/ollama/ollama.git";
     hash= "sha256-GRufz01lTSgBmDzRImY02xuAeuzjlIEFWv578fI8ciY=";
     fetchSubmodules = true;
   };
